@@ -1,0 +1,38 @@
+﻿<Window x:Class="PracticaModeloDom.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PracticaModeloDom"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="592.5" Width="848">
+    <Grid>
+        <ListBox x:Name="listBoxNombres" HorizontalAlignment="Left" Height="512" Margin="10,10,0,0" VerticalAlignment="Top" Width="208" SelectionChanged="listBoxNombres_SelectionChanged"/>
+        <Label x:Name="labelNombre" Content="Nombre" HorizontalAlignment="Left" Margin="240,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxNombre" HorizontalAlignment="Left" Height="23" Margin="378,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216" IsEnabled="False"/>
+        <Label x:Name="labelEmail" Content="Email" HorizontalAlignment="Left" Margin="241,53,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxEmail" HorizontalAlignment="Left" Height="23" Margin="378,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216" IsEnabled="False"/>
+        <Label x:Name="labelTelefono" Content="Telefono" HorizontalAlignment="Left" Margin="240,100,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxTelefono" HorizontalAlignment="Left" Height="23" Margin="378,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216" IsEnabled="False"/>
+        <Label x:Name="labelFechaActualizacion" Content="Fecha Actualización" HorizontalAlignment="Left" Margin="241,197,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxFechaActualizacion" HorizontalAlignment="Left" Height="23" Margin="378,197,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216" IsEnabled="False"/>
+        <Label x:Name="labelWeb" Content="Web" HorizontalAlignment="Left" Margin="241,252,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxWeb" HorizontalAlignment="Left" Height="23" Margin="378,252,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="448" IsEnabled="False"/>
+        <Label x:Name="labelDireccion" Content="Dirección" HorizontalAlignment="Left" Margin="241,300,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxDireccion" HorizontalAlignment="Left" Height="23" Margin="378,300,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="448" IsEnabled="False"/>
+        <Label x:Name="labelPais" Content="Pais" HorizontalAlignment="Left" Margin="618,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxPais" HorizontalAlignment="Left" Height="23" Margin="706,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Label x:Name="labelCiudad" Content="Ciudad" HorizontalAlignment="Left" Margin="618,53,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxCiudad" HorizontalAlignment="Left" Height="23" Margin="706,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Label x:Name="labelTipo" Content="Tipo" HorizontalAlignment="Left" Margin="618,100,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxTipo" HorizontalAlignment="Left" Height="23" Margin="706,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Label x:Name="labelCategoria" Content="Categoria" HorizontalAlignment="Left" Margin="618,150,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxCategoria" HorizontalAlignment="Left" Height="23" Margin="706,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Label x:Name="labelCodigoPostal" Content="Codigo Postal" HorizontalAlignment="Left" Margin="241,150,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxCodigoPostal" HorizontalAlignment="Left" Height="23" Margin="378,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216" IsEnabled="False"/>
+        <Label x:Name="labelSubcategoria" Content="SubCategoria" HorizontalAlignment="Left" Margin="618,197,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxSubCategoria" HorizontalAlignment="Left" Height="23" Margin="706,197,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBox x:Name="textBoxDescripcion" HorizontalAlignment="Left" Height="203" Margin="240,348,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="586"/>
+        <Button x:Name="botonVerImagenes" Content="Ver Imagenes" HorizontalAlignment="Left" Margin="10,527,0,0" VerticalAlignment="Top" Width="208" Click="botonVerImagenes_Click" IsEnabled="False"/>
+    </Grid>
+</Window>
